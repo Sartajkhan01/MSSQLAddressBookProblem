@@ -34,4 +34,8 @@ select * from AddressBook;
 delete AddressBook where FirstName='Amar';
 select * from AddressBook;
 
+--UC6 retrieve person belonging to city or state--
+select * from AddressBook where City = 'Bhilai' or State = 'MP'; 
+
+
 
